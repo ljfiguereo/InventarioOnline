@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "InventarioOnline.Models/1.0.0": {
+        "dependencies": {
+          "InventarioOnline.Utils": "1.0.0"
+        },
+        "runtime": {
+          "InventarioOnline.Models.dll": {}
+        }
+      },
+      "InventarioOnline.Utils/1.0.0": {
+        "runtime": {
+          "InventarioOnline.Utils.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "InventarioOnline.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "InventarioOnline.Utils/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

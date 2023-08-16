@@ -1,0 +1,17 @@
+C:\Software\InventarioOnline\InventarioOnline.DataAccess\bin\Debug\net7.0\InventarioOnline.DataAccess.deps.json
+C:\Software\InventarioOnline\InventarioOnline.DataAccess\bin\Debug\net7.0\InventarioOnline.DataAccess.dll
+C:\Software\InventarioOnline\InventarioOnline.DataAccess\bin\Debug\net7.0\InventarioOnline.DataAccess.pdb
+C:\Software\InventarioOnline\InventarioOnline.DataAccess\bin\Debug\net7.0\InventarioOnline.Models.dll
+C:\Software\InventarioOnline\InventarioOnline.DataAccess\bin\Debug\net7.0\InventarioOnline.Utils.dll
+C:\Software\InventarioOnline\InventarioOnline.DataAccess\bin\Debug\net7.0\InventarioOnline.Models.pdb
+C:\Software\InventarioOnline\InventarioOnline.DataAccess\bin\Debug\net7.0\InventarioOnline.Utils.pdb
+C:\Software\InventarioOnline\InventarioOnline.DataAccess\obj\Debug\net7.0\InventarioOnline.DataAccess.csproj.AssemblyReference.cache
+C:\Software\InventarioOnline\InventarioOnline.DataAccess\obj\Debug\net7.0\InventarioOnline.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Software\InventarioOnline\InventarioOnline.DataAccess\obj\Debug\net7.0\InventarioOnline.DataAccess.AssemblyInfoInputs.cache
+C:\Software\InventarioOnline\InventarioOnline.DataAccess\obj\Debug\net7.0\InventarioOnline.DataAccess.AssemblyInfo.cs
+C:\Software\InventarioOnline\InventarioOnline.DataAccess\obj\Debug\net7.0\InventarioOnline.DataAccess.csproj.CoreCompileInputs.cache
+C:\Software\InventarioOnline\InventarioOnline.DataAccess\obj\Debug\net7.0\InventarioOnline.DataAccess.csproj.CopyComplete
+C:\Software\InventarioOnline\InventarioOnline.DataAccess\obj\Debug\net7.0\InventarioOnline.DataAccess.dll
+C:\Software\InventarioOnline\InventarioOnline.DataAccess\obj\Debug\net7.0\refint\InventarioOnline.DataAccess.dll
+C:\Software\InventarioOnline\InventarioOnline.DataAccess\obj\Debug\net7.0\InventarioOnline.DataAccess.pdb
+C:\Software\InventarioOnline\InventarioOnline.DataAccess\obj\Debug\net7.0\ref\InventarioOnline.DataAccess.dll

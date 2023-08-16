@@ -1,0 +1,11 @@
+C:\Software\InventarioOnline\InventarioOnline.Utils\bin\Debug\net7.0\InventarioOnline.Utils.deps.json
+C:\Software\InventarioOnline\InventarioOnline.Utils\bin\Debug\net7.0\InventarioOnline.Utils.dll
+C:\Software\InventarioOnline\InventarioOnline.Utils\bin\Debug\net7.0\InventarioOnline.Utils.pdb
+C:\Software\InventarioOnline\InventarioOnline.Utils\obj\Debug\net7.0\InventarioOnline.Utils.GeneratedMSBuildEditorConfig.editorconfig
+C:\Software\InventarioOnline\InventarioOnline.Utils\obj\Debug\net7.0\InventarioOnline.Utils.AssemblyInfoInputs.cache
+C:\Software\InventarioOnline\InventarioOnline.Utils\obj\Debug\net7.0\InventarioOnline.Utils.AssemblyInfo.cs
+C:\Software\InventarioOnline\InventarioOnline.Utils\obj\Debug\net7.0\InventarioOnline.Utils.csproj.CoreCompileInputs.cache
+C:\Software\InventarioOnline\InventarioOnline.Utils\obj\Debug\net7.0\InventarioOnline.Utils.dll
+C:\Software\InventarioOnline\InventarioOnline.Utils\obj\Debug\net7.0\refint\InventarioOnline.Utils.dll
+C:\Software\InventarioOnline\InventarioOnline.Utils\obj\Debug\net7.0\InventarioOnline.Utils.pdb
+C:\Software\InventarioOnline\InventarioOnline.Utils\obj\Debug\net7.0\ref\InventarioOnline.Utils.dll

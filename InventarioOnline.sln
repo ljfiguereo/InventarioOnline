@@ -5,6 +5,12 @@ VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InventarioOnline", "InventarioOnline\InventarioOnline.csproj", "{0669CA71-BEAD-481F-A07D-92510861FDAD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InventarioOnline.DataAccess", "InventarioOnline.DataAccess\InventarioOnline.DataAccess.csproj", "{60BEA74C-E711-47C9-ABC7-CE1EC3F0F321}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InventarioOnline.Models", "InventarioOnline.Models\InventarioOnline.Models.csproj", "{DF4A1183-C52A-420D-9B71-1B2B7A152364}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InventarioOnline.Utils", "InventarioOnline.Utils\InventarioOnline.Utils.csproj", "{9371ADD3-E3D6-4595-AEF4-B97FC4A155E2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +21,18 @@ Global
 		{0669CA71-BEAD-481F-A07D-92510861FDAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0669CA71-BEAD-481F-A07D-92510861FDAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0669CA71-BEAD-481F-A07D-92510861FDAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60BEA74C-E711-47C9-ABC7-CE1EC3F0F321}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60BEA74C-E711-47C9-ABC7-CE1EC3F0F321}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60BEA74C-E711-47C9-ABC7-CE1EC3F0F321}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60BEA74C-E711-47C9-ABC7-CE1EC3F0F321}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF4A1183-C52A-420D-9B71-1B2B7A152364}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF4A1183-C52A-420D-9B71-1B2B7A152364}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF4A1183-C52A-420D-9B71-1B2B7A152364}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF4A1183-C52A-420D-9B71-1B2B7A152364}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9371ADD3-E3D6-4595-AEF4-B97FC4A155E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9371ADD3-E3D6-4595-AEF4-B97FC4A155E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9371ADD3-E3D6-4595-AEF4-B97FC4A155E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9371ADD3-E3D6-4595-AEF4-B97FC4A155E2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

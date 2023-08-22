@@ -9,5 +9,7 @@ namespace InventarioOnline.Utils
     //Definiciones Estaticas
     public static class DS
     {
+        public const string Success = "Exitoso";
+        public const string Error = "Error";
     }
 }

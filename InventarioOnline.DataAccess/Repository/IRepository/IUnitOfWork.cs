@@ -10,6 +10,8 @@ namespace InventarioOnline.DataAccess.Repository.IRepository
     public interface IUnitOfWork : IDisposable
     {
         IAlmacenRepository Almacen { get; }
+        ICategoriaRepository Categoria { get; }
+        IMarcaRepository Marca { get; }
         Task Save();
     }
 }

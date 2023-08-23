@@ -12,11 +12,15 @@ namespace InventarioOnline.DataAccess.Repository
     {
         private readonly ApplicationDbContext _db;
         public IAlmacenRepository Almacen { get; private set; }
+        public ICategoriaRepository Categoria { get; private set; }
+        public IMarcaRepository Marca { get; private set; }
 
         public UnitOfWork(ApplicationDbContext db)
         {
             _db = db;
             Almacen = new AlmacenRepository(_db);
+            Categoria = new CategoriaRepository(_db);
+            Marca = new MarcaRepository(_db);
         }
 
         public void Dispose()

@@ -49,9 +49,19 @@
                                 Mantenimientos
                             </a>
                             <ul class="dropdown-menu">
+                                <li>
+                                    <a class="dropdown-item" asp-area="Admin" asp-controller="Marca" asp-action="Index">
+                                        Marcas
+                                    </a>
+                                </li>
                                 <li><a class="dropdown-item" asp-area="Admin" asp-controller="Almacen" asp-action="Index">
-                                    Almacen
+                                    Almacenes
                                 </a></li>
+                                <li>
+                                    <a class="dropdown-item" asp-area="Admin" asp-controller="Categoria" asp-action="Index">
+                                        Categorias
+                                    </a>
+                                </li>
                             </ul>
                         </li>
                     </ul>
@@ -80,15 +90,9 @@
     <script src="~/lib/dataTable/datatables.js"></script>
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
-    <script>
-        $(document).ready(function () {
-            $("#noEnter").bind("keypress", function (e) {
-                if (e.keyCode == 13) {
-                    return false;
-                }
-            });
-        });
-    </script>
+
+    <script type="text/javascript" src="~/js/shared.js"></script>
+    
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html> 

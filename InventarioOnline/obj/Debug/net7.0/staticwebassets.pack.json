@@ -17,6 +17,18 @@
       "PackagePath": "staticwebassets\\js\\almacen.js"
     },
     {
+      "Id": "C:\\Software\\InventarioOnline\\InventarioOnline\\wwwroot\\js\\categoria.js",
+      "PackagePath": "staticwebassets\\js\\categoria.js"
+    },
+    {
+      "Id": "C:\\Software\\InventarioOnline\\InventarioOnline\\wwwroot\\js\\marca.js",
+      "PackagePath": "staticwebassets\\js\\marca.js"
+    },
+    {
+      "Id": "C:\\Software\\InventarioOnline\\InventarioOnline\\wwwroot\\js\\shared.js",
+      "PackagePath": "staticwebassets\\js\\shared.js"
+    },
+    {
       "Id": "C:\\Software\\InventarioOnline\\InventarioOnline\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

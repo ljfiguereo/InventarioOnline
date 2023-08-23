@@ -12,14 +12,14 @@ namespace InventarioOnline.DataAccess.Repository
             _db = db;
         }
 
-        public void Update(Almacen almacen)
+        public void Update(Almacen entity)
         {
-            var almacenDb = _db.Almacenes.FirstOrDefault(x => x.Id == almacen.Id);
+            var almacenDb = _db.Almacenes.FirstOrDefault(x => x.Id == entity.Id);
             if (almacenDb != null)
             {
-                almacenDb.Nombre = almacen.Nombre;
-                almacenDb.Descripcion = almacen.Descripcion;
-                almacenDb.Estado = almacen.Estado;
+                almacenDb.Nombre = entity.Nombre;
+                almacenDb.Descripcion = entity.Descripcion;
+                almacenDb.Estado = entity.Estado;
 
                 _db.SaveChanges();
             }

@@ -12,6 +12,8 @@ namespace InventarioOnline.DataAccess.Repository.IRepository
         IAlmacenRepository Almacen { get; }
         ICategoriaRepository Categoria { get; }
         IMarcaRepository Marca { get; }
+        IPruebaRepository Prueba { get; }
+
         Task Save();
     }
 }

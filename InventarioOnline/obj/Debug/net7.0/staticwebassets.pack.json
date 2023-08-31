@@ -13,6 +13,30 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Software\\InventarioOnline\\InventarioOnline\\wwwroot\\images\\productos\\0d6a10ce-9465-4d26-a7a2-57a255a889bc.JPG",
+      "PackagePath": "staticwebassets\\images\\productos\\0d6a10ce-9465-4d26-a7a2-57a255a889bc.JPG"
+    },
+    {
+      "Id": "C:\\Software\\InventarioOnline\\InventarioOnline\\wwwroot\\images\\productos\\1d0196ca-b050-4354-9c89-61f15690140d.JPG",
+      "PackagePath": "staticwebassets\\images\\productos\\1d0196ca-b050-4354-9c89-61f15690140d.JPG"
+    },
+    {
+      "Id": "C:\\Software\\InventarioOnline\\InventarioOnline\\wwwroot\\images\\productos\\6402054e-6722-4bf2-9cea-f929ac81a3bb.JPG",
+      "PackagePath": "staticwebassets\\images\\productos\\6402054e-6722-4bf2-9cea-f929ac81a3bb.JPG"
+    },
+    {
+      "Id": "C:\\Software\\InventarioOnline\\InventarioOnline\\wwwroot\\images\\productos\\7e83f5d4-86ca-45e7-bc8e-8654c1cb4bac.JPG",
+      "PackagePath": "staticwebassets\\images\\productos\\7e83f5d4-86ca-45e7-bc8e-8654c1cb4bac.JPG"
+    },
+    {
+      "Id": "C:\\Software\\InventarioOnline\\InventarioOnline\\wwwroot\\images\\productos\\a29bf9da-1bac-47f6-b697-4c9405cab175.JPG",
+      "PackagePath": "staticwebassets\\images\\productos\\a29bf9da-1bac-47f6-b697-4c9405cab175.JPG"
+    },
+    {
+      "Id": "C:\\Software\\InventarioOnline\\InventarioOnline\\wwwroot\\images\\productos\\d7d80209-e081-4fec-9de1-5243084f19e9.JPG",
+      "PackagePath": "staticwebassets\\images\\productos\\d7d80209-e081-4fec-9de1-5243084f19e9.JPG"
+    },
+    {
       "Id": "C:\\Software\\InventarioOnline\\InventarioOnline\\wwwroot\\js\\almacen.js",
       "PackagePath": "staticwebassets\\js\\almacen.js"
     },
@@ -23,6 +47,10 @@
     {
       "Id": "C:\\Software\\InventarioOnline\\InventarioOnline\\wwwroot\\js\\marca.js",
       "PackagePath": "staticwebassets\\js\\marca.js"
+    },
+    {
+      "Id": "C:\\Software\\InventarioOnline\\InventarioOnline\\wwwroot\\js\\producto.js",
+      "PackagePath": "staticwebassets\\js\\producto.js"
     },
     {
       "Id": "C:\\Software\\InventarioOnline\\InventarioOnline\\wwwroot\\js\\shared.js",

@@ -18,6 +18,7 @@ namespace InventarioOnline.DataAccess.Data
         public DbSet<Categoria> Categorias { get; set; }
         public DbSet<Marca> Marcas { get; set; }
         public DbSet<Prueba> Prueba { get; set; }
+        public DbSet<Producto> Productos { get; set; }
 
         protected override void OnModelCreating(ModelBuilder builder)
         {

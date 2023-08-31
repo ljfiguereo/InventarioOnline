@@ -11,5 +11,7 @@ namespace InventarioOnline.Utils
     {
         public const string Success = "Exitoso";
         public const string Error = "Error";
+
+        public const string urlProductos = @"\images\productos\";
     }
 }

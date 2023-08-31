@@ -13,6 +13,15 @@ let dataTableLanguage = {
         "previous": "Anterior"
     }
 };
+$('#tblData').on('processing.dt', function (e, settings, processing) {
+    if (processing) {
+        var dt = document.getElementById("tblData_wrapper").classList.add("wrapper");
+        dt = document.getElementById("tblData_wrapper").classList.add("loading");
+    } else {
+        var dt = document.getElementById("tblData_wrapper").classList.remove("wrapper");
+        dt = document.getElementById("tblData_wrapper").classList.remove("loading");
+    }
+});
 function addAspValidation(fieldName, message) {
     var parent = document.querySelector('[data-valmsg-for="' + fieldName + '"]');
 

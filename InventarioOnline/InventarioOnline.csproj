@@ -2,7 +2,6 @@
 
   <PropertyGroup>
     <TargetFramework>net7.0</TargetFramework>
-    <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <UserSecretsId>aspnet-InventarioOnline-9ae62419-c7f3-4e4e-845c-b6662fd862a0</UserSecretsId>
   </PropertyGroup>
@@ -34,6 +33,10 @@
     <ProjectReference Include="..\InventarioOnline.DataAccess\InventarioOnline.DataAccess.csproj" />
     <ProjectReference Include="..\InventarioOnline.Models\InventarioOnline.Models.csproj" />
     <ProjectReference Include="..\InventarioOnline.Utils\InventarioOnline.Utils.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\images\productos\" />
   </ItemGroup>
 
 </Project>

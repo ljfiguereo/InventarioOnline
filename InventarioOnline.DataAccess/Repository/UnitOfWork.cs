@@ -15,6 +15,7 @@ namespace InventarioOnline.DataAccess.Repository
         public ICategoriaRepository Categoria { get; private set; }
         public IMarcaRepository Marca { get; private set; }
         public IPruebaRepository Prueba { get; private set; }
+        public IProductoRepository Producto { get; private set; }
 
         public UnitOfWork(ApplicationDbContext db)
         {
@@ -23,6 +24,7 @@ namespace InventarioOnline.DataAccess.Repository
             Categoria = new CategoriaRepository(_db);
             Marca = new MarcaRepository(_db);
             Prueba = new PruebaRepository(_db);
+            Producto = new ProductoRepository(_db);
         }
 
         public void Dispose()

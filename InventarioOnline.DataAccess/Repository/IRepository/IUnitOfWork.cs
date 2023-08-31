@@ -1,11 +1,4 @@
-﻿using InventarioOnline.Models.Inventario;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace InventarioOnline.DataAccess.Repository.IRepository
+﻿namespace InventarioOnline.DataAccess.Repository.IRepository
 {
     public interface IUnitOfWork : IDisposable
     {
@@ -13,6 +6,7 @@ namespace InventarioOnline.DataAccess.Repository.IRepository
         ICategoriaRepository Categoria { get; }
         IMarcaRepository Marca { get; }
         IPruebaRepository Prueba { get; }
+        IProductoRepository Producto { get; }
 
         Task Save();
     }

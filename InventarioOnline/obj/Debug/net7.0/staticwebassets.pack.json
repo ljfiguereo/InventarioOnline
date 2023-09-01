@@ -13,12 +13,24 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Software\\InventarioOnline\\InventarioOnline\\wwwroot\\images\\productos\\0d6a10ce-9465-4d26-a7a2-57a255a889bc.JPG",
-      "PackagePath": "staticwebassets\\images\\productos\\0d6a10ce-9465-4d26-a7a2-57a255a889bc.JPG"
+      "Id": "C:\\Software\\InventarioOnline\\InventarioOnline\\wwwroot\\images\\icono.ico",
+      "PackagePath": "staticwebassets\\images\\icono.ico"
     },
     {
-      "Id": "C:\\Software\\InventarioOnline\\InventarioOnline\\wwwroot\\images\\productos\\1d0196ca-b050-4354-9c89-61f15690140d.JPG",
-      "PackagePath": "staticwebassets\\images\\productos\\1d0196ca-b050-4354-9c89-61f15690140d.JPG"
+      "Id": "C:\\Software\\InventarioOnline\\InventarioOnline\\wwwroot\\images\\icono.png",
+      "PackagePath": "staticwebassets\\images\\icono.png"
+    },
+    {
+      "Id": "C:\\Software\\InventarioOnline\\InventarioOnline\\wwwroot\\images\\productos\\09bd2f42-5ca0-4f6e-a854-50845310bfc1.JPG",
+      "PackagePath": "staticwebassets\\images\\productos\\09bd2f42-5ca0-4f6e-a854-50845310bfc1.JPG"
+    },
+    {
+      "Id": "C:\\Software\\InventarioOnline\\InventarioOnline\\wwwroot\\images\\productos\\0d847e24-f526-4c96-94e0-798a0f16735f.JPG",
+      "PackagePath": "staticwebassets\\images\\productos\\0d847e24-f526-4c96-94e0-798a0f16735f.JPG"
+    },
+    {
+      "Id": "C:\\Software\\InventarioOnline\\InventarioOnline\\wwwroot\\images\\productos\\53876c72-5428-4460-8981-c5db7a415bdf.JPG",
+      "PackagePath": "staticwebassets\\images\\productos\\53876c72-5428-4460-8981-c5db7a415bdf.JPG"
     },
     {
       "Id": "C:\\Software\\InventarioOnline\\InventarioOnline\\wwwroot\\images\\productos\\6402054e-6722-4bf2-9cea-f929ac81a3bb.JPG",
@@ -33,8 +45,32 @@
       "PackagePath": "staticwebassets\\images\\productos\\a29bf9da-1bac-47f6-b697-4c9405cab175.JPG"
     },
     {
+      "Id": "C:\\Software\\InventarioOnline\\InventarioOnline\\wwwroot\\images\\productos\\a83e4d22-7853-4b1c-9016-da36100232b3.JPG",
+      "PackagePath": "staticwebassets\\images\\productos\\a83e4d22-7853-4b1c-9016-da36100232b3.JPG"
+    },
+    {
+      "Id": "C:\\Software\\InventarioOnline\\InventarioOnline\\wwwroot\\images\\productos\\adb76480-24d1-4ef8-bebd-ea239297d558.JPG",
+      "PackagePath": "staticwebassets\\images\\productos\\adb76480-24d1-4ef8-bebd-ea239297d558.JPG"
+    },
+    {
+      "Id": "C:\\Software\\InventarioOnline\\InventarioOnline\\wwwroot\\images\\productos\\bb27647c-71c0-497e-8ae5-20ebb9ea3e2a.JPG",
+      "PackagePath": "staticwebassets\\images\\productos\\bb27647c-71c0-497e-8ae5-20ebb9ea3e2a.JPG"
+    },
+    {
+      "Id": "C:\\Software\\InventarioOnline\\InventarioOnline\\wwwroot\\images\\productos\\cd8d5b6a-0ce9-4960-bc74-961752b57a67.JPG",
+      "PackagePath": "staticwebassets\\images\\productos\\cd8d5b6a-0ce9-4960-bc74-961752b57a67.JPG"
+    },
+    {
       "Id": "C:\\Software\\InventarioOnline\\InventarioOnline\\wwwroot\\images\\productos\\d7d80209-e081-4fec-9de1-5243084f19e9.JPG",
       "PackagePath": "staticwebassets\\images\\productos\\d7d80209-e081-4fec-9de1-5243084f19e9.JPG"
+    },
+    {
+      "Id": "C:\\Software\\InventarioOnline\\InventarioOnline\\wwwroot\\images\\productos\\e065423b-60c8-475b-959c-8c480fedb1e5.JPG",
+      "PackagePath": "staticwebassets\\images\\productos\\e065423b-60c8-475b-959c-8c480fedb1e5.JPG"
+    },
+    {
+      "Id": "C:\\Software\\InventarioOnline\\InventarioOnline\\wwwroot\\images\\productos\\f7593913-1f3c-4b46-9d2c-d8ea12114b18.JPG",
+      "PackagePath": "staticwebassets\\images\\productos\\f7593913-1f3c-4b46-9d2c-d8ea12114b18.JPG"
     },
     {
       "Id": "C:\\Software\\InventarioOnline\\InventarioOnline\\wwwroot\\js\\almacen.js",

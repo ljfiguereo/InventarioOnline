@@ -7,6 +7,6 @@ namespace InventarioOnline.DataAccess.Repository.IRepository
     {
         void Update(Producto producto);
 
-        IEnumerable<SelectListItem> GetAllDropownList(string obj);
+        IEnumerable<SelectListItem> GetAllDropownList(string obj, int? id = null);
     }
 }

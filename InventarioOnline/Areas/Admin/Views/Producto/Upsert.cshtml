@@ -86,7 +86,7 @@
                     <div class="col-6">
                         <label>Producto Padre</label>
                         <select asp-for="Producto.ParentId" asp-items="Model.ParentLista" class="form-select">
-                            <option disabled selected>-- Seleccione una Producto --</option>
+                            <option selected value="">-- Producto Padre--</option>
                         </select>
                         <span asp-validation-for="Producto.ParentId" class="text-danger"></span>
                     </div>

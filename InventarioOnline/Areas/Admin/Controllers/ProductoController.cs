@@ -22,14 +22,14 @@ namespace InventarioOnline.Areas.Admin.Controllers
         {
             return View();
         }
-        ProductoVM InitViewModel(Producto entity = null)
+        ProductoVM InitViewModel(Producto entity = null, int? id = null)
         {
             var productoVM = new ProductoVM()
             {
                 Producto = new Producto(),
                 CategoriaLista = _unitOfWork.Producto.GetAllDropownList("Categoria"),
                 MarcaLista = _unitOfWork.Producto.GetAllDropownList("Marca"),
-                ParentLista = _unitOfWork.Producto.GetAllDropownList("Producto")
+                ParentLista = _unitOfWork.Producto.GetAllDropownList("Producto",id)
             };
             if (entity != null)
             {
@@ -40,7 +40,7 @@ namespace InventarioOnline.Areas.Admin.Controllers
         }
         public async Task<IActionResult> Upsert(int? id)
         {
-            var productoVM = InitViewModel();
+            var productoVM = InitViewModel(id: id);
 
             if (id == null)
             {
@@ -118,7 +118,7 @@ namespace InventarioOnline.Areas.Admin.Controllers
                 return View("Index");
             }
             TempData[DS.Error] = "Modelo es Invalido";
-            productoVM = InitViewModel(productoVM.Producto);
+            productoVM = InitViewModel(productoVM.Producto, productoVM.Producto.Id);
 
             return View(productoVM);
         }

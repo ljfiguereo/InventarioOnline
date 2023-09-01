@@ -13,7 +13,7 @@ namespace InventarioOnline.DataAccess.Repository
             _db = db;
         }
 
-        public IEnumerable<SelectListItem> GetAllDropownList(string obj)
+        public IEnumerable<SelectListItem> GetAllDropownList(string obj, int? id = null)
         {
             if (obj == "Categoria")
             {
@@ -33,7 +33,11 @@ namespace InventarioOnline.DataAccess.Repository
             }
             if (obj == "Producto")
             {
-                return _db.Productos.Where(x => x.Estado).Select(x => new SelectListItem
+                var listProducto = _db.Productos.Where(x => x.Estado);
+                if (id != null)
+                    listProducto = listProducto.Where(x => x.Id != id);
+
+                return listProducto.Select(x => new SelectListItem
                 {
                     Text = x.Nombre,
                     Value = x.Id.ToString()

@@ -1,5 +1,6 @@
 ﻿using InventarioOnline.DataAccess.Data;
 using InventarioOnline.DataAccess.Repository.IRepository;
+using InventarioOnline.Models.Specifications;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -55,6 +56,34 @@ namespace InventarioOnline.DataAccess.Repository
 
             return await query.ToListAsync();
         }
+
+        public PagedList<T> GetAllPaged(Params param, Expression<Func<T, bool>> filter = null, Func<IQueryable<T>, 
+            IOrderedQueryable<T>> orderBy = null, string includeProperties = null, bool isTracking = true)
+        {
+            IQueryable<T> query = dbSet;
+            if (filter != null)
+            {
+                query = query.Where(filter); // Select * From Where ....
+            }
+            if (includeProperties != null)
+            {
+                foreach (var property in includeProperties.Split(',', StringSplitOptions.RemoveEmptyEntries))
+                {
+                    query = query.Include(property); // Ejemplo "Categoria, Marca"
+                }
+            }
+            if (orderBy != null)
+            {
+                query = orderBy(query);
+            }
+            if (!isTracking)
+            {
+                query = query.AsNoTracking();
+            }
+
+            return PagedList<T>.ToPagedList(query, param.PageNumber, param.PageSize);
+        }
+
         public async Task<T> GetFirst(Expression<Func<T, bool>> filter = null, 
             string includeProperties = null, bool isTracking = true)
         {

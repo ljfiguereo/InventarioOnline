@@ -1,4 +1,5 @@
-﻿using System.Linq.Expressions;
+﻿using InventarioOnline.Models.Specifications;
+using System.Linq.Expressions;
 
 namespace InventarioOnline.DataAccess.Repository.IRepository
 {
@@ -11,6 +12,13 @@ namespace InventarioOnline.DataAccess.Repository.IRepository
              string includeProperties = null,
              bool isTracking = true
             );
+
+        PagedList<T> GetAllPaged(Params param, Expression<Func<T, bool>> filter = null,
+             Func<IQueryable<T>, IOrderedQueryable<T>> orderBy = null,
+             string includeProperties = null,
+             bool isTracking = true
+            );
+
         Task<T> GetFirst(
             Expression<Func<T, bool>> filter = null,
              string includeProperties = null,

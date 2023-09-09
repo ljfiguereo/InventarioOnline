@@ -1,5 +1,6 @@
 ﻿using InventarioOnline.DataAccess.Repository.IRepository;
 using InventarioOnline.Models.Inventario;
+using InventarioOnline.Models.Specifications;
 using InventarioOnline.Models.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
@@ -17,13 +18,48 @@ namespace InventarioOnline.Areas.Inventario.Controllers
             _unitOfWork = unitOfWork;
         }
 
-        public async Task<IActionResult> Index()
+        public IActionResult Index(int pageNumber = 1, string search = "", string searchCurrent = "")
         {
-            IEnumerable<Producto> products = await _unitOfWork.Producto.GetAll();
+            if (!String.IsNullOrEmpty(search))
+            {
+                pageNumber = 1;
+            }
+            else
+            {
+                search = searchCurrent;
+            }
+            ViewData["SearchCurrent"] = search;
 
-            return View(products);
+            if (pageNumber <= 1) { pageNumber = 1; }
+
+            Params param = new Params() { 
+            PageNumber = pageNumber,
+            PageSize = 4
+            };
+
+            var results = _unitOfWork.Producto.GetAllPaged(param);
+
+            if (!String.IsNullOrEmpty(search))
+            {
+                results = _unitOfWork.Producto.GetAllPaged(param, p => p.Nombre.Contains(search));
+            }
+            
+            SetViewDataPaged(results, pageNumber);
+
+            return View(results);
         }
+        void SetViewDataPaged(PagedList<Producto> results, int pageNumber)
+        {
+            ViewData["TotalPages"] = results.MetaData.TotalPages;
+            ViewData["TotalRows"] = results.MetaData.TotalCount;
+            ViewData["PageSize"] = results.MetaData.TotalSizes;
+            ViewData["PageNumber"] = pageNumber;
+            ViewData["Previous"] = "disabled"; // clase css para desactivar boton
+            ViewData["Next"] = "";
 
+            if (pageNumber > 1) { ViewData["Previous"] = ""; }
+            if (results.MetaData.TotalPages <= pageNumber) { ViewData["Next"] = "disabled"; }
+        }
         public IActionResult Privacy()
         {
             return View();

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "vK1QmPiEIrlPr4i4MM/RO0rySymUc7p6V8SVcyJCbF8=",
+  "Hash": "d8KJJxeR/v20oYk2MQ1V+IVD3W+V3VadMe71/3v9tZs=",
   "Source": "InventarioOnline",
   "BasePath": "_content/InventarioOnline",
   "Mode": "Default",
@@ -253,40 +253,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\productos\\adb76480-24d1-4ef8-bebd-ea239297d558.JPG"
-    },
-    {
-      "Identity": "C:\\Software\\InventarioOnline\\InventarioOnline\\wwwroot\\images\\productos\\bb27647c-71c0-497e-8ae5-20ebb9ea3e2a.JPG",
-      "SourceId": "InventarioOnline",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Software\\InventarioOnline\\InventarioOnline\\wwwroot\\",
-      "BasePath": "_content/InventarioOnline",
-      "RelativePath": "images/productos/bb27647c-71c0-497e-8ae5-20ebb9ea3e2a.JPG",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\productos\\bb27647c-71c0-497e-8ae5-20ebb9ea3e2a.JPG"
-    },
-    {
-      "Identity": "C:\\Software\\InventarioOnline\\InventarioOnline\\wwwroot\\images\\productos\\cd8d5b6a-0ce9-4960-bc74-961752b57a67.JPG",
-      "SourceId": "InventarioOnline",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Software\\InventarioOnline\\InventarioOnline\\wwwroot\\",
-      "BasePath": "_content/InventarioOnline",
-      "RelativePath": "images/productos/cd8d5b6a-0ce9-4960-bc74-961752b57a67.JPG",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\productos\\cd8d5b6a-0ce9-4960-bc74-961752b57a67.JPG"
     },
     {
       "Identity": "C:\\Software\\InventarioOnline\\InventarioOnline\\wwwroot\\images\\productos\\d7d80209-e081-4fec-9de1-5243084f19e9.JPG",

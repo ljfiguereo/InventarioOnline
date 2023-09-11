@@ -4649,7 +4649,8 @@
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
           "InventarioOnline.Utils": "1.0.0",
-          "Microsoft.AspNetCore.Mvc.ViewFeatures": "2.2.0"
+          "Microsoft.AspNetCore.Mvc.ViewFeatures": "2.2.0",
+          "Microsoft.Extensions.Identity.Stores": "7.0.10"
         },
         "compile": {
           "bin/placeholder/InventarioOnline.Models.dll": {}

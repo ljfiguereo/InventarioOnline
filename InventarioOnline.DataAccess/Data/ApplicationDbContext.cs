@@ -1,4 +1,5 @@
-﻿using InventarioOnline.Models.Inventario;
+﻿using InventarioOnline.Models.Admin;
+using InventarioOnline.Models.Inventario;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
@@ -19,6 +20,7 @@ namespace InventarioOnline.DataAccess.Data
         public DbSet<Marca> Marcas { get; set; }
         public DbSet<Prueba> Prueba { get; set; }
         public DbSet<Producto> Productos { get; set; }
+        public DbSet<UsuarioApp> UsuarioApp { get; set; }
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
